@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TKMultiColumnTableCollectionViewLayout"
+  s.summary      = "Multi Column table based collectionViewLayout"
   s.version      = "0.0.1"
   s.homepage     = "https://github.com/itworx/TKMultiColumnTableCollectionViewLayout"
     

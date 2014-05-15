@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
  
   s.source_files = 'Classes', '"${PODS_ROOT}/Parse/Parse.framework/Versions/1.2.19/Headers"'
   
-  s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => '"$(PODS_ROOT)/Parse"' }
+  s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => '"$(PODS_ROOT)/Parse"' , "HEADER_SEARCH_PATHS" => '"${PODS_ROOT}/Parse/Parse.framework/Versions/1.2.19/Headers"'}
 
   s.public_header_files = '"${PODS_ROOT}/Parse/Parse.framework/Versions/1.2.19/Headers"'
   s.frameworks = 'Foundation', 'CoreData'

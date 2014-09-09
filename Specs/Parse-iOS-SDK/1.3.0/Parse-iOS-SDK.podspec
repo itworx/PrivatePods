@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name      = "Parse-iOS-SDK"
-  s.version   = “1.3.0”
+  s.version   = "1.3.0"
   s.summary   = "Parse is a complete technology stack to power your app's backend."
   s.homepage  = "http://www.parse.com"
   s.author    = "Parse"

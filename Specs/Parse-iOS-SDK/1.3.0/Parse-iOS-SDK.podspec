@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
 
   s.platform      = :ios, '5.0'
   s.requires_arc  = true
-  
-  s.source          = { :http => "http://parse-ios.s3.amazonaws.com/d6f9a99dc84ce503c7de20ed91cb08f4/parse-library-#{s.version}.zip" }
+
+  s.source          = { :http => "http://parse-ios.s3.amazonaws.com/fe7d5b5421b322d1f8fb96ac8ae65b24/parse-library-#{s.version}.zip" }
   s.framework       = 'AudioToolbox', 'CFNetwork', 'CoreGraphics', 'CoreLocation', 'MobileCoreServices', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
   s.weak_frameworks = 'Accounts', 'AdSupport', 'Social'
   s.library         = 'z', 'sqlite3'

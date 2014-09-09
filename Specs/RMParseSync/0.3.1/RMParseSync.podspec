@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h', '"$(PODS_ROOT)/Parse/Parse.Framework/Versions/1.3.0/Headers"'
   s.frameworks = 'Foundation', 'CoreData'
   s.dependency 'Bolts', '~> 1.1.0'
-  s.dependency 'Parse-iOS-SDK’, '~> 1.3.0'
+  s.dependency 'Parse-iOS-SDK', '~> 1.3.0'
   s.dependency 'CocoaLumberjack'
 end
